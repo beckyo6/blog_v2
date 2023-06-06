@@ -1,0 +1,12 @@
+.notunderline {
+    color: #060707;
+    text-decoration: none;
+}
+
+.notunderline:hover {
+    color: #060707;
+}
+
+.bg-purple {
+    background-color: #613F75 !important;
+  }
