@@ -32,9 +32,9 @@
                         <div class="card-body">
                             <h5 class="card-title fw-bold">Titre de l'article</h5>
                             <div class="my-2">
-                                <span class="badge rounded-pill bg-secondary">Secondary</span>
-                                <span class="badge rounded-pill bg-secondary">Secondary</span>
-                                <span class="badge rounded-pill bg-secondary">Secondary</span>
+                                <span class="badge rounded-pill bg-purple">Secondary</span>
+                                <span class="badge rounded-pill bg-purple">Secondary</span>
+                                <span class="badge rounded-pill bg-purple">Secondary</span>
                             </div>
 
                             <p class="card-text text-right">
@@ -52,7 +52,7 @@
         </div>
         <div class="row col-md-12">
             <div class="d-grid gap-2 d-sm-flex justify-content-sm-center my-3">
-                <a href="{{ route('articles.index') }}" class="btn btn-outline-secondary btn-lg px-4">
+                <a href="{{ route('articles.index') }}" class="btn btn-outline-purple btn-lg px-4">
                     En découvrir plus
                 </a>
             </div>

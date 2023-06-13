@@ -17,9 +17,9 @@
                         <div class="card-body">
                             <h5 class="card-title fw-bold">Titre de l'article</h5>
                             <div class="my-2">
-                                <span class="badge rounded-pill bg-secondary">Secondary</span>
-                                <span class="badge rounded-pill bg-secondary">Secondary</span>
-                                <span class="badge rounded-pill bg-secondary">Secondary</span>
+                                <span class="badge rounded-pill bg-purple">purple</span>
+                                <span class="badge rounded-pill bg-purple">purple</span>
+                                <span class="badge rounded-pill bg-purple">purple</span>
                             </div>
 
                             <p class="card-text text-right">
@@ -37,8 +37,8 @@
         </div>
         <div class="row col-md-12">
             <div class="d-grid gap-2 d-sm-flex justify-content-sm-center my-3">
-                <nav aria-label="Page navigation example">
-                    <ul class="pagination pagination-lg">
+                <nav aria-label="Page navigation">
+                    <ul class="pagination pagination-md">
                         <li class="page-item">
                             <a class="page-link" href="#" aria-label="Previous">
                                 <span aria-hidden="true">&laquo;</span>
