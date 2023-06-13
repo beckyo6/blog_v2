@@ -67,7 +67,7 @@
         <div class="row col-md-12 bg-purple text-white">
             <div class="row my-4">
                 <div class="col-md-5 offset-md-1">
-                    <h4 class="mb-2 fw-bold font-title">Me contacter</h4>
+                    <h4 class="mb-2 fw-bold font-title" id="contact">Me contacter</h4>
                     <hr class="mb-2">
                     <p class="font-content">
                         <a target="_blank" class="link-light text-decoration-none fs-5"
