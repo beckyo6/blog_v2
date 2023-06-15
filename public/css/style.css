@@ -1,0 +1,36 @@
+.notunderline {
+    color: #060707;
+    text-decoration: none;
+}
+
+.notunderline:hover {
+    color: #060707;
+}
+
+.bg-purple {
+    background-color: #613F75 !important;
+}
+
+
+.text-purple {
+    color: #613F75 !important;
+}
+
+
+.btn-outline-purple {
+    color: #613F75;
+    border-color: #613F75;
+}
+
+.btn-outline-purple:hover {
+    color: #fff;
+    background-color: #613F75;
+    border-color: #613F75;
+}
+
+.page-item.active .page-link {
+    z-index: 3;
+    color: #fff;
+    background-color: #613F75;
+    border-color: #613F75;
+  }
