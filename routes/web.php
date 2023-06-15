@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\ArticleController;
 
 /*
 |--------------------------------------------------------------------------
@@ -17,10 +18,7 @@ Route::get('/', function () {
     return view('home');
 })->name('home');
 
-
-Route::get('articles', function () {
-    return view('articles.index');
-})->name('articles.index');
+Route::resource('articles', ArticleController::class);
 
 Route::get('show', function () {
     return view('articles.show');

@@ -9,22 +9,20 @@
         <div class="row col-md-12">
             <h3 class="fw-bold my-3">Tout les articles</h3>
             <hr class="mb-0">
-
-            @for ($i = 0; $i < 4; $i++)
+            @foreach ($articles as $article)
                 <div class="col-md-6">
-                    <div class="my-3">
-                        <img src="img/article.jpg" class="img-fluid rounded" alt="...">
+                    <div class="card my-3">
+                        <img src="{{ asset($article->image) }}" class="img-fluid rounded" alt="...">
                         <div class="card-body">
-                            <h5 class="card-title fw-bold">Titre de l'article</h5>
+                            <h4 class="card-title fw-bold">{{ $article->titre }}</h4>
                             <div class="my-2">
                                 <span class="badge rounded-pill bg-purple">purple</span>
                                 <span class="badge rounded-pill bg-purple">purple</span>
                                 <span class="badge rounded-pill bg-purple">purple</span>
                             </div>
 
-                            <p class="card-text text-right">
-                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illum
-                                fugiat nesciunt eveniet dolore quibusdam quae dolorum.
+                            <p class="card-text text-right text-muted">
+                                {{ $article->resume }}
                             </p>
                             <a href="{{ route('articles.show') }}" class="text-decoration-none text-dark fw-bold">
                                 Lire l'article
@@ -33,7 +31,7 @@
                         </div>
                     </div>
                 </div>
-            @endfor
+            @endforeach
         </div>
         <div class="row col-md-12">
             <div class="d-grid gap-2 d-sm-flex justify-content-sm-center my-3">
