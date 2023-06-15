@@ -33,4 +33,8 @@
     color: #fff;
     background-color: #613F75;
     border-color: #613F75;
-  }
+}
+
+.img-corner {
+    border-radius: 2%;
+}

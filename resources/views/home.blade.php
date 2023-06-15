@@ -28,7 +28,7 @@
             @for ($i = 0; $i < 4; $i++)
                 <div class="col-md-6">
                     <div class="my-3">
-                        <img src="img/article.jpg" class="img-fluid rounded" alt="...">
+                        <img src="img/article.jpg" class="img-fluid img-corner" alt="...">
                         <div class="card-body">
                             <h5 class="card-title fw-bold">Titre de l'article</h5>
                             <div class="my-2">
@@ -41,7 +41,7 @@
                                 Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illum
                                 fugiat nesciunt eveniet dolore quibusdam quae dolorum.
                             </p>
-                            <a href="{{ route('articles.show') }}" class="text-decoration-none text-dark fw-bold">
+                            <a href="{{ route('articles.show', 'vvv') }}" class="text-decoration-none text-dark fw-bold">
                                 Lire l'article
                                 <i class="fa fa-arrow-right"></i>
                             </a>

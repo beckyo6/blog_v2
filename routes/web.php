@@ -18,8 +18,6 @@ Route::get('/', function () {
     return view('home');
 })->name('home');
 
-Route::resource('articles', ArticleController::class);
+Route::get('articles', [ArticleController::class, 'index'])->name('articles.index');
+Route::get('articles/{slug}', [ArticleController::class, 'show'])->name('articles.show');
 
-Route::get('show', function () {
-    return view('articles.show');
-})->name('articles.show');

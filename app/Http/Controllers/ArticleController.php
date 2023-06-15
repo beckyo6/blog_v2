@@ -35,9 +35,12 @@ class ArticleController extends Controller
     /**
      * Display the specified resource.
      */
-    public function show(Article $article)
+    public function show($slug)
     {
-        //
+        $article = Article::Where("articles.slug", $slug)->first();
+        if($article)
+            return view('articles.show', compact('article'));
+        return abort(404);
     }
 
     /**
